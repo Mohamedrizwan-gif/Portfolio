@@ -1,0 +1,36 @@
+.profile {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.profile_header {
+    text-align: center;
+    color: darkgray;
+}
+
+.profile_desc {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 20px;
+    text-align: center;
+    line-height: 2;
+    margin: 0 5px 0 5px;
+}
+
+.profile_btn {
+    display: block !important;
+    margin: auto !important;
+}
+
+.avatar {
+    width: 200px !important;
+    height: 200px !important;
+}
+
+@media (min-width: 650px) {
+    .profile {
+        flex-direction: row;
+        justify-content: center;
+    }
+}

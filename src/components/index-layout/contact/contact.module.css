@@ -1,0 +1,47 @@
+.contact {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    width: 80% !important;
+}
+
+.label {
+    color: gray;
+}
+
+.input {
+    border: 1px solid gray;
+    border-radius: 5px;
+    outline-color: #3f51b5;
+}
+
+.input_email {
+    width: 95%;
+    line-height: 2;
+}
+
+.input_textarea {
+    width: 95%;
+    height: 158px;
+}
+
+.send_btn {
+    width: 100px;
+    border-radius: 15px;
+}
+
+.contact_logo:hover {
+    background-color: #c4bfbf !important;
+    border-radius: 10px !important;
+}
+
+@media (min-width: 600px) {
+    .input_email {
+        width: 330px;
+    }
+    .input_textarea {
+        width: 330px;
+    }
+}

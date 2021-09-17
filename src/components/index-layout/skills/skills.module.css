@@ -1,0 +1,29 @@
+.skills_logo {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.logo {
+    margin: 40px 30px 40px 30px;
+    transform: translatey(0px);
+    animation: float 5s ease-in-out infinite;
+}
+
+.logo_name {
+    text-align: center;
+    font: small-caption;
+    font-family: cursive;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translatey(0px);
+    }
+}

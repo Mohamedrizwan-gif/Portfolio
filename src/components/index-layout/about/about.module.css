@@ -1,0 +1,41 @@
+.avatar_container {
+    margin: 0;
+}
+
+.avatar {
+    width: 220px !important;
+    height: 245px !important;
+}
+
+.about {
+    display: flex;
+}
+
+.about_me {
+    font-family: 'Mallanna', sans-serif;
+    font-size: 20px !important;
+    text-align: center;
+    line-height: 2 !important;
+}
+
+.about_dev_header {
+    font-family: 'Kaisei HarunoUmi', serif !important;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.about_dev {
+    line-height: 2;
+    font-family: 'Mallanna', sans-serif;
+    font-size: large;
+}
+
+@media (max-width: 800px) {
+    .avatar_container {
+        margin: auto;
+    }
+    .about {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,119 @@
+{
+    "objective": "To Pursue a challenging career and be part of a progressive organization that gives scope to enhance my knowledge, skills and to reach the pinnacle in the computing and research field with sheer determination, dedication and hard work.",
+    "personal_details": {
+        "name": "Mohamed Rizwan",
+        "contact_no": "+91-8825801986",
+        "mail": "mmohamedrijwan@gmail.com",
+        "github": "https://github.com/Mohamedrizwan-gif",
+        "linkedin": "www.linkedin.com/in/mohamed2000"
+    },
+    "education": [
+        {
+            "school": "SFS Matric Higher Secondary school",
+            "percentage": "87%",
+            "studied": "SSLC",
+            "place": "Pudukkottai"
+        },
+        {
+            "school": "Vidyaa Vikas matric(B) Matric Higher Secondary school",
+            "percentage": "81%",
+            "studied": "HSC",
+            "place": "Pudukkottai"
+        },
+        {
+            "college": "The New College",
+            "university": "Madras University",
+            "percentage": "83%",
+            "studied": "Bachelor of Computer Applications (BCA)"
+        }
+    ],
+    "certifications": [
+        {
+            "name": "Angular Certification",
+            "url": "https://www.udemy.com/certificate/UC-68c4c69e-756a-4d95-9196-1aa26f2e90e1/",
+            "domain": "Web Development",
+            "platform": "Udemy",
+            "finished": "Dec'2020"
+        },
+        {
+            "name": "NodeJs Certification",
+            "url": "https://www.udemy.com/certificate/UC-bb352e7f-e2d5-4f08-bf09-a3a35e9cb5ba/",
+            "domain": "Web Development",
+            "platform": "Udemy",
+            "finished": "May'2021"
+        }
+    ],
+    "achievements": [
+        {
+            "campus": "SRM Ramapuram campus",
+            "desc": "Participated in technical symposium at SRM Ramapuram campus, Chennai and awarded winner of web development Tecblaze 2020.",
+            "image": "/assets/images/certificate/SRM.jpeg"
+        },
+        {
+            "campus": "DG vaishnav college",
+            "desc": "Participated in technical symposium at DG vaishnav college, chennai and awarded web development Cyberfest 2020 by holding second position.",
+            "image": "/assets/images/certificate/DG.jpeg"
+        }
+    ],
+    "technical_skills": {
+        "programming_languages": ["Javascript", "Typescript", "Python"],
+        "programming_tools": ["VScode", "Postman"],
+        "framework": ["Angular", "React", "Express.js"],
+        "database": ["Mongo", "Mysql"]
+    },
+    "projects": [
+        {
+            "name": "Portfolio",
+            "client-used": {
+                "language": "Javascript",
+                "library": ["React.js", "Material-UI", "Aos"]
+            },
+            "images": [
+                "assets/images/works/portfolio.png"
+            ],
+            "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
+            "site_url": "https://casesheet2021.herokuapp.com"
+        },
+        {
+            "name": "Casesheet",
+            "client-used": {
+                "language": "Javascript",
+                "library": ["React.js", "Redux.js", "Material-UI"]
+            },
+            "server-used": ["Express.js"],
+            "db-used": ["Mongodb"],
+            "images": [
+                "assets/images/works/casesheet.png"
+            ],
+            "src_url": "https://github.com/Mohamedrizwan-gif/casesheet",
+            "site_url": "https://casesheet2021.herokuapp.com"
+        },
+        {
+            "name": "CovidTracker",
+            "client-used": {
+                "language": "Typescript",
+                "framework": "Angular"
+            },
+            "api": "Mapbox",
+            "images": [
+                "assets/images/works/covidtracker.png"
+            ],
+            "src_url": "https://github.com/Mohamedrizwan-gif/Covid-tracker",
+            "site_url": "https://covid-track-19.netlify.app"
+        },
+        {
+            "name": "Meet-in",
+            "client-used": {
+                "language": "Javascript",
+                "library": ["React.js", "Redux.js", "Material-UI"]
+            },
+            "server-used": ["Express.js"],
+            "db-used": ["Mongodb"],
+            "images": [
+                "assets/images/works/meet-in.png"
+            ],
+            "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
+            "site_url": "https://meet-in.netlify.app/"
+        }
+    ]
+}

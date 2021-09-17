@@ -1,0 +1,54 @@
+.app_bar {
+    position: relative !important;
+    background-color: #fff !important;
+    color: black !important;
+}
+
+.code {
+    font-size: 16px;
+}
+
+.avatar {
+    width: 70px !important;
+    height: 70px !important;
+}
+
+.menu {
+    margin-left: auto !important;
+}
+
+.menu_icon {
+    font-size: 35px !important;
+}
+
+.navigate {
+    margin-left: auto;
+}
+
+.navigate a {
+    text-decoration: none;
+    color: black;
+}
+
+.navigate button {
+    margin-right: 5px;
+}
+
+.navigate button:hover {
+    background-color: gray;
+}
+
+.navigate button:last-child {
+    margin-right: 0;
+}
+
+.bar_btn {
+    display: block !important;
+    margin: auto !important;
+    padding: 15px 0 15px 0 !important;
+    width: 100%;
+}
+
+.bar_btn:hover {
+    background-color: gray;
+}

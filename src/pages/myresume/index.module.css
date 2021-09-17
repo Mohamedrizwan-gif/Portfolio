@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+
+.overlay {
+    width: 90vw;
+    margin: 30px auto;
+    background-color: white;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.objective {
+    font-size: small;
+    text-indent: inherit;
+}
+
+.icon-code {
+    vertical-align: super;
+    margin-left: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 12px;
+    padding: 20px 15px;
+    background-color: rgb(68, 85, 111);
+    color: rgb(255, 255, 255);
+}
+
+.subheader {
+    text-transform: uppercase;
+    color: rgb(68, 85, 111);
+    margin-bottom: 4px;
+    border-bottom: 1px solid;
+}
+
+.subheader1 {
+    color: rgb(68, 85, 111);
+    font-weight: bold;
+}
+
+.subheader2 {
+    font-weight: bold;
+}
+
+.description {
+    font-size: inherit;
+}
+
+.list_heading {
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.list {
+    color: darkslategray;
+    font-size: 12px;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.list_style_cert {
+    margin-left: 1.3rem;
+    font-size: smaller;
+}
+
+.cert_icon {
+    transform: rotate(135deg);
+    color: #687fe9;
+    vertical-align: middle;
+}
+
+.list_style_achiev {
+    display: list-item;
+    margin-left: 1.3rem;
+}
+
+.city {
+    font-size: 14px;
+}
+
+@media print,
+screen and (min-width: 650px) {
+    .header {
+        flex-direction: row;
+        font-size: inherit;
+    }
+    .objective {
+        text-indent: 2rem;
+    }
+}
+
+@media (min-width: 970px) {
+    .overlay {
+        width: 60vw;
+    }
+}
