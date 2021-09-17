@@ -37,7 +37,6 @@ function Contact() {
     const [messageError, setMessageError] = useState('');
     const [open, setOpen] = useState(false);
     const classes = useStyles();
-    const reg = /^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/;
 
     const handleClose = () => {
         setOpen(false);
@@ -59,7 +58,8 @@ function Contact() {
         else {
             setNameError(''); 
         }
-        if(reg.test(email) === false) {
+        // eslint-disable-next-line no-useless-escape
+        if(/^([A-Za-z0-9_\-\.])+\@([A-Za-z0-9_\-\.])+\.([A-Za-z]{2,4})$/.test(email) === false) {
             setEmailError('Please enter valid email');
             return;
         }
