@@ -1,5 +1,6 @@
-import React from 'react';
+import { useEffect, useState } from 'react';
 import { useHistory, Link } from 'react-router-dom';
+import * as Scroll from 'react-scroll';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/Toolbar';
 import SwipeableDrawer from '@material-ui/core/SwipeableDrawer';
@@ -11,8 +12,8 @@ import 'aos/dist/aos.css';
 import styles from './navbar.module.css';
 
 function Navbar() {
-    const [state, setState] = React.useState(false);
-    const [responsive, setResponsive] = React.useState(false);
+    const [state, setState] = useState(false);
+    const [responsive, setResponsive] = useState(false);
     const history = useHistory();
 
     const toggleDrawer = (open) => (event) => {
@@ -27,7 +28,7 @@ function Navbar() {
         history.push(route);
     }
 
-    React.useEffect(() => {
+    useEffect(() => {
         Aos.init({duration: 1000});
         const mediaQuery = (x) => {
             if(x.matches) {   
@@ -54,19 +55,19 @@ function Navbar() {
                     :
                     <div data-aos="slide-left" className={styles.navigate}>
                         <Button variant="outlined">
-                            <a href="#home">Home</a>
+                            <Scroll.Link activeClass={styles.active} to="home" smooth={true} spy={true}>Home</Scroll.Link>
                         </Button>
                         <Button variant="outlined">
-                            <a href="#about">About</a>
+                            <Scroll.Link activeClass={styles.active} to="about" smooth={true} spy={true}>About</Scroll.Link>
                         </Button>
                         <Button variant="outlined">
-                            <a href="#skills">Skills</a>
+                            <Scroll.Link activeClass={styles.active} to="skills" smooth={true} spy={true}>Skills</Scroll.Link>
                         </Button>
                         <Button variant="outlined">
-                            <a href="#works">Works</a>
+                            <Scroll.Link activeClass={styles.active} to="works" smooth={true} spy={true}>Works</Scroll.Link>
                         </Button>
                         <Button variant="outlined">
-                            <a href="#contact">Contact</a>
+                            <Scroll.Link activeClass={styles.active} to="contact" smooth={true} spy={true}>Contact</Scroll.Link>
                         </Button>
                         <Button variant="outlined">
                             <Link to="/myresume">My Resume</Link>

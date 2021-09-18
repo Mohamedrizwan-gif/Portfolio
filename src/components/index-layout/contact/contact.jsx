@@ -117,7 +117,9 @@ function Contact() {
                                 value={name}
                                 onChange={e => setName(e.target.value)}
                             />
-                            {nameError.length > 0 && <div>{nameError}</div>}
+                            {nameError.length > 0 && 
+                            <div style={{color:'red'}}>{nameError}</div>
+                            }
                         </div>
                         <br/>
                         <div>
@@ -131,7 +133,9 @@ function Contact() {
                                 onChange={e => setEmail(e.target.value)}
                                 required
                             />
-                            {emailError.length > 0 && <div>{emailError}</div>}
+                            {emailError.length > 0 && 
+                            <div style={{color:'red'}}>{emailError}</div>
+                            }
                         </div>
                         <br/>
                         <div>
@@ -143,7 +147,9 @@ function Contact() {
                                 value={message}
                                 onChange={e => setMessage(e.target.value)}
                             />
-                            {messageError.length > 0 && <div>{messageError}</div>}
+                            {messageError.length > 0 && 
+                            <div style={{color:'red'}}>{messageError}</div>
+                            }
                         </div>
                         <br/>
                         <Button 

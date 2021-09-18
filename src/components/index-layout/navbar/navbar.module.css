@@ -1,3 +1,7 @@
+.active {
+    color: #34568B !important;
+}
+
 .app_bar {
     position: relative !important;
     background-color: #fff !important;
