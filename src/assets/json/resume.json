@@ -92,6 +92,9 @@
                 "language": "Typescript",
                 "framework": "Angular"
             },
+            "images": [
+                "assets/images/works/covidtracker.png"
+            ],
             "api": "Mapbox",
             "src_url": "https://github.com/Mohamedrizwan-gif/Covid-tracker",
             "site_url": "https://covid-track-19.netlify.app"
@@ -104,6 +107,9 @@
             },
             "server-used": ["Express.js"],
             "db-used": ["Mongodb"],
+            "images": [
+                "assets/images/works/meet-in.png"
+            ],
             "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
             "site_url": "https://meet-in.netlify.app/"
         }

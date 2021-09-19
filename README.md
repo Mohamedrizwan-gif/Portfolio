@@ -21,3 +21,7 @@ AOS - Animate On Scroll library using css3,  that animates elements on scroll.
 ### `react-responsive-carousel`
 
 The carousel is a slideshow for cycling through a series of content, built with CSS 3D transforms and a bit of JavaScript.
+
+### `react-scroll`
+
+React component for animating vertical scrolling
