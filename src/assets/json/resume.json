@@ -46,13 +46,11 @@
     "achievements": [
         {
             "campus": "SRM Ramapuram campus",
-            "desc": "Participated in technical symposium at SRM Ramapuram campus, Chennai and awarded winner of web development Tecblaze 2020.",
-            "image": "/assets/images/certificate/SRM.jpeg"
+            "desc": "Participated in technical symposium at SRM Ramapuram campus, Chennai and awarded winner of web development Tecblaze 2020."
         },
         {
             "campus": "DG vaishnav college",
-            "desc": "Participated in technical symposium at DG vaishnav college, chennai and awarded web development Cyberfest 2020 by holding second position.",
-            "image": "/assets/images/certificate/DG.jpeg"
+            "desc": "Participated in technical symposium at DG vaishnav college, chennai and awarded web development Cyberfest 2020 by holding second position."
         }
     ],
     "technical_skills": {
@@ -95,9 +93,6 @@
                 "framework": "Angular"
             },
             "api": "Mapbox",
-            "images": [
-                "assets/images/works/covidtracker.png"
-            ],
             "src_url": "https://github.com/Mohamedrizwan-gif/Covid-tracker",
             "site_url": "https://covid-track-19.netlify.app"
         },
@@ -109,9 +104,6 @@
             },
             "server-used": ["Express.js"],
             "db-used": ["Mongodb"],
-            "images": [
-                "assets/images/works/meet-in.png"
-            ],
             "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
             "site_url": "https://meet-in.netlify.app/"
         }

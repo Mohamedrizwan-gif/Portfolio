@@ -7,6 +7,8 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import LinkIcon from '@material-ui/icons/Link';
 import Grid from '@material-ui/core/Grid';
 
+import SRM from '../../assets/images/certificate/SRM.jpeg';
+import DG from '../../assets/images/certificate/DG.jpeg';
 import Json from '../../assets/json/resume.json';
 import styles from './index.module.css';
 
@@ -106,7 +108,7 @@ function Index() {
                         <Fragment key={index}>
                             <div className={`${styles.subheader2} ${styles.list_style_achiev}`}>
                                 {ach.campus}
-                                <a rel="noopener noreferrer" href={ach.image} target="_blank">
+                                <a rel="noopener noreferrer" href={index === 0 ? SRM : DG} target="_blank">
                                     <LinkIcon className={styles.cert_icon}/>
                                 </a>
                             </div>
