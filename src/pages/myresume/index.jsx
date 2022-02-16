@@ -122,11 +122,21 @@ function Index() {
                 <div>
                     <h4 className={styles.subheader}>Education:</h4>
                     <div>
+                        <div className={styles.subheader1}>Masters of Computer Applications (MCA)</div>
+                        <div className={styles.subheader2}>Dwaraka Doss Goverdhan Doss Vaishnav College<small>(Madras University)</small></div>
+                        <p className={styles.description}>
+                            Pursuing Masters of Computer Applications in&nbsp;
+                            <strong>Dwaraka Doss Goverdhan Doss Vaishnav College (Madras University)</strong>,in the year of 2021-2023,<br/>
+                            <span className={styles.city}>Chennai.</span>
+                        </p>
+                    </div>
+                    <Divider/>
+                    <div>
                         <div className={styles.subheader1}>Bachelor of Computer Applications (BCA)</div>
                         <div className={styles.subheader2}>The New College<small>(Madras University)</small></div>
                         <p className={styles.description}>
-                            Bachelor of computer Application with aggregate <strong>83%</strong> in 
-                            <strong>The New college (Madras University)</strong>,in the year of 2018-2021 (current),<br/>
+                            Completed Bachelor of computer Applications with aggregate <strong>83%</strong> in&nbsp;
+                            <strong>The New college (Madras University)</strong>,in the year of 2018-2021,<br/>
                             <span className={styles.city}>Chennai.</span>
                         </p>
                     </div>

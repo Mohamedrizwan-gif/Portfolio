@@ -24,7 +24,12 @@ function Home() {
                     <br/>
                     <div className={styles.profile_desc}>
                         Hi, I'm Mohamed Rizwan.
-                        <br/>I am <code>&lt;MEAN&gt;</code> and <code>&lt;MERN&gt;</code> stack developer. 
+                        <br/>I am&nbsp;
+                        {/* <code> */}
+                            {/* &lt;MEAN&gt;</code> and <code>&lt;MERN&gt; */}
+                            Full
+                        {/* </code>  */}
+                        &nbsp;stack developer. 
                         If you're looking for a web developer to build websites for your business or startups, 
                         you can get in touch with me here.
                     </div>  

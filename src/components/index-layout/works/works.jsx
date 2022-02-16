@@ -9,6 +9,7 @@ import Portfolio from '../../../assets/images/works/portfolio.png';
 import Casesheet from '../../../assets/images/works/casesheet.png';
 import Covidtracker from '../../../assets/images/works/covidtracker.png';
 import Meetin from '../../../assets/images/works/meet-in.png'
+import Vdgamedb from '../../../assets/images/works/videogamedb.png';
 import Json from '../../../assets/json/resume.json';
 import styles from './works.module.css';
 
@@ -118,6 +119,31 @@ function Works() {
                     <CardActions className={styles.action_btn}>
                         <Button className={styles.btn} color="primary" variant="outlined">
                             <a href={resume?.projects[3].site_url} target="blank">
+                                Show Webpage
+                            </a>
+                        </Button> 
+                    </CardActions>
+                </Card>
+                {/* Videogamedb */}
+                <Card className={styles.card} component={Paper} variant="outlined">
+                    {resume?.projects[4]?.images[0] &&
+                    <CardMedia className={styles.media} image={Vdgamedb}/>
+                    }
+                    <CardContent>
+                        <div className={styles.cardtitle}>{resume?.projects[4].name}</div>
+                        <p className={styles.cardcontent}>
+                            Vdgamedb website is build by using angular framework which gives the 
+                            detailed overview of video games information is fetch by using rawg api.
+                        </p>
+                    </CardContent>
+                    <CardActions className={styles.action_btn}>
+                        <Button className={styles.btn} color="primary" variant="outlined">
+                            <a href={resume?.projects[4].src_url} target="blank">
+                                Show Src Code
+                            </a>
+                        </Button>
+                        <Button className={styles.btn} color="primary" variant="outlined">
+                            <a href={resume?.projects[4].site_url} target="blank">
                                 Show Webpage
                             </a>
                         </Button> 

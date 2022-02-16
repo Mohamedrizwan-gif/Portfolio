@@ -5,7 +5,7 @@
         "contact_no": "+91-8825801986",
         "mail": "mmohamedrijwan@gmail.com",
         "github": "https://github.com/Mohamedrizwan-gif",
-        "linkedin": "www.linkedin.com/in/mohamed2000"
+        "linkedin": "https://www.linkedin.com/in/mohamed2000"
     },
     "education": [
         {
@@ -112,6 +112,14 @@
             ],
             "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
             "site_url": "https://meet-in.netlify.app/"
+        }, 
+        {
+            "name": "Vdgamedb",
+            "images":[
+                "assets/images/works/videogamedb.png"
+            ],
+            "src_url": "https://github.com/Mohamedrizwan-gif/videogamedb",
+            "site_url": "https://vdgamedb.netlify.app/"
         }
     ]
 }
