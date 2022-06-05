@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useHistory, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import * as Scroll from 'react-scroll';
 import AppBar from '@material-ui/core/AppBar';
 import ToolBar from '@material-ui/core/Toolbar';
@@ -14,7 +14,6 @@ import styles from './navbar.module.css';
 function Navbar() {
     const [state, setState] = useState(false);
     const [responsive, setResponsive] = useState(false);
-    const history = useHistory();
 
     const toggleDrawer = (open) => (event) => {
         if (event && event.type === 'keydown' && (event.key === 'Tab' || event.key === 'Shift')) {
@@ -22,11 +21,6 @@ function Navbar() {
         }
         setState(open);
     };
-
-    const onNav = (route) => {
-        setState(false);
-        history.push(route);
-    }
 
     useEffect(() => {
         Aos.init({duration: 1000});
@@ -83,11 +77,21 @@ function Navbar() {
                 onClose={toggleDrawer(false)} 
                 onOpen={toggleDrawer(true)}
             >
-                <Button onClick={() => onNav('#home')} className={styles.bar_btn}>Home</Button>
-                <Button onClick={() => onNav('#about')} className={styles.bar_btn}>About</Button>
-                <Button onClick={() => onNav('#skills')} className={styles.bar_btn}>Skills</Button>
-                <Button onClick={() => onNav('#works')} className={styles.bar_btn}>Works</Button>
-                <Button onClick={() => onNav('#contact')} className={styles.bar_btn}>Contact</Button>
+                <Button className={styles.bar_btn}>
+                    <Scroll.Link activeClass={styles.active} to="home" smooth={true} spy={true}>Home</Scroll.Link>
+                </Button>
+                <Button className={styles.bar_btn}>
+                    <Scroll.Link activeClass={styles.active} to="about" smooth={true} spy={true}>About</Scroll.Link>
+                </Button>
+                <Button className={styles.bar_btn}>
+                    <Scroll.Link activeClass={styles.active} to="skills" smooth={true} spy={true}>Skills</Scroll.Link>
+                </Button>
+                <Button className={styles.bar_btn}>
+                    <Scroll.Link activeClass={styles.active} to="works" smooth={true} spy={true}>Works</Scroll.Link>
+                </Button>
+                <Button className={styles.bar_btn}>
+                    <Scroll.Link activeClass={styles.active} to="contact" smooth={true} spy={true}>Contact</Scroll.Link>
+                </Button>
                 <Button className={styles.bar_btn}>
                     <Link to="/myresume">My Resume</Link>
                 </Button>
