@@ -118,6 +118,11 @@ function Works() {
                     </CardContent>
                     <CardActions className={styles.action_btn}>
                         <Button className={styles.btn} color="primary" variant="outlined">
+                            <a href={resume?.projects[3].src_url} target="blank">
+                                Show Src Code
+                            </a>
+                        </Button>
+                        <Button className={styles.btn} color="primary" variant="outlined">
                             <a href={resume?.projects[3].site_url} target="blank">
                                 Show Webpage
                             </a>

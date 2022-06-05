@@ -94,7 +94,7 @@ function Index() {
                     <div className={styles.list_style_cert}>
                         {resume?.certifications.map((cert,index) => (
                             <div style={{display:'list-item'}} key={index}>
-                                <strong>{cert.name}</strong>({cert.domain}) | {cert.platform} | {cert.finished}.
+                                <strong>{cert.name}</strong> {cert.domain && (cert.domain)} | {cert.platform} | {cert.finished}.
                                 <a href={cert.url} target="blank">
                                     <LinkIcon className={styles.cert_icon}/>
                                 </a>

@@ -41,6 +41,18 @@
             "domain": "Web Development",
             "platform": "Udemy",
             "finished": "May'2021"
+        }, 
+        {
+            "name": "Python Certification",
+            "url": "https://drive.google.com/file/d/1-hcQqRIMqmccpRmUPNrmvbpceNgrKje0/view?usp=sharing",
+            "platform": "Spoken tutorial",
+            "finished": "May'2022" 
+        }, 
+        {
+            "name": "Linux Certification",
+            "url": "https://drive.google.com/file/d/15i8w4DoxU4yOsLeb29V93EoczdbhJkOk/view?usp=sharing",
+            "platform": "Spoken tutorial",
+            "finished": "Jan'2022"
         }
     ],
     "achievements": [
@@ -110,7 +122,7 @@
             "images": [
                 "assets/images/works/meet-in.png"
             ],
-            "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
+            "src_url": "https://github.com/Mohamedrizwan-gif/Meet-in",
             "site_url": "https://meet-in.netlify.app/"
         }, 
         {
