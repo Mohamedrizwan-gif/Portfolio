@@ -35,10 +35,6 @@ function Skills() {
                     <div className={styles.logo_name}>CSS</div>
                 </div>
                 <div className={styles.logo} data-aos="fade-up">
-                    <img src={'/assets/images/skills/sass.png'} width="50px" height="50px"/>
-                    <div className={styles.logo_name}>SCSS</div>
-                </div>
-                <div className={styles.logo} data-aos="fade-up">
                     <img alt="js" src={JS} width="50px" height="50px"/>
                     <div className={styles.logo_name}>Javascript</div>
                 </div>
