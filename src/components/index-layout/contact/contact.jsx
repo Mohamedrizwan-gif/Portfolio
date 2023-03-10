@@ -44,9 +44,7 @@ function Contact() {
   
     const body = (
         <div className={classes.paper}>
-          <p id="simple-modal-description">
-          Thank you for your response
-          </p>
+          <p id="simple-modal-description">Thank you for your response</p>
         </div>
     );
 
@@ -164,22 +162,22 @@ function Contact() {
                     <div style={{marginTop:'15px'}}>
                         <Button className={styles.contact_logo}>
                             <a href="mailto:mmohamedrijwan@gmail.com" target="blank">
-                                <EmailIcon color="primary"/>   
+                                <EmailIcon style={{color: 'rgb(251, 117, 146)'}}/>   
                             </a>
                         </Button>
                         <Button className={styles.contact_logo}>
                             <a href="https://www.linkedin.com/in/mohamed-rizwan-188594b3/" target="blank">
-                                <LinkedInIcon color="primary"/>  
+                                <LinkedInIcon style={{color: 'rgb(251, 117, 146)'}}/>  
                             </a> 
                         </Button>
                         <Button className={styles.contact_logo}>
                             <a href="https://github.com/Mohamedrizwan-gif" target="blank">
-                                <GitHubIcon color="primary"/>   
+                                <GitHubIcon style={{color: 'rgb(251, 117, 146)'}}/>   
                             </a>
                         </Button>
                         <Button className={styles.contact_logo}>
                             <a href="https://api.whatsapp.com/send?phone=918825801986" target="blank">
-                                <WhatsAppIcon color="primary"/>
+                                <WhatsAppIcon style={{color: 'rgb(251, 117, 146)'}}/>
                             </a>
                         </Button>
                     </div>

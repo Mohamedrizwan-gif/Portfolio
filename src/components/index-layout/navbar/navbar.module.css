@@ -1,3 +1,7 @@
+.swipe_navigate {
+    /* background-color: #34568B; */
+}
+
 .active {
     color: #34568B !important;
 }
@@ -10,6 +14,7 @@
 
 .code {
     font-size: 16px;
+    color: white;
 }
 
 .avatar {
@@ -51,6 +56,8 @@
     margin: auto !important;
     padding: 15px 0 15px 0 !important;
     width: 100%;
+    background-color: cadetblue !important;
+    color: white !important;
 }
 
 .bar_btn:hover {

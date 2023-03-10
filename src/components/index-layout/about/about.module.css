@@ -1,10 +1,17 @@
 .avatar_container {
     margin: 0;
+    padding: 0 15px;
 }
 
 .avatar {
-    width: 220px !important;
-    height: 245px !important;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 155px;
+    height: 190px;
+    object-fit: cover;
+    border: 1px solid gray;
+    border-radius: 50px;
 }
 
 .about {
@@ -32,6 +39,11 @@
 }
 
 @media (max-width: 800px) {
+    .avatar {
+        position: relative;
+        top: 0;
+        transform: translateY(0);
+    }       
     .avatar_container {
         margin: auto;
     }

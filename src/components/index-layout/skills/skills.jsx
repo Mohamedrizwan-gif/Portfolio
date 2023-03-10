@@ -11,6 +11,9 @@ import AJS from '../../../assets/images/skills/angular.png';
 import NJS from '../../../assets/images/skills/nodejs.png';
 import MYSQL from '../../../assets/images/skills/mysql.png';
 import MDB from '../../../assets/images/skills/mongodb.png';
+import PY from '../../../assets/images/skills/data-science/python.png';
+import PD from '../../../assets/images/skills/data-science/pandas.png';
+import BS from '../../../assets/images/skills/data-science/bs.jpg';
 import styles from './skills.module.css';
 
 function Skills() {
@@ -24,6 +27,7 @@ function Skills() {
             <br/>
             <br/>
             <br/>
+            <h2>Full Stack Development</h2>
             <div className={styles.skills_logo}>
                 <div className={styles.logo} data-aos="fade-up">
                     <img alt="html" src={HTML} width="50px" height="50px"/>
@@ -65,6 +69,21 @@ function Skills() {
                     <img alt="mongodb" src={MDB} width="50px" height="50px"/>
                     <div className={styles.logo_name}>MongoDB</div>
                 </div>
+            </div>
+            <h2>Data Science</h2>
+            <div className={styles.skills_logo}>
+                <div className={styles.logo} data-aos="fade-up">
+                    <img alt="python" src={PY} width="70px" height="50px"/>
+                    <div className={styles.logo_name}>Python</div>
+                </div>            
+                <div className={styles.logo} data-aos="fade-up">
+                    <img alt="pandas" src={PD} width="70px" height="50px"/>
+                    <div className={styles.logo_name}>Pandas</div>
+                </div>            
+                <div className={styles.logo} data-aos="fade-up">
+                    <img alt="bs" src={BS} width="70px" height="50px"/>
+                    <div className={styles.logo_name}>BeautifulSoup</div>
+                </div>            
             </div>
         </div>
     )

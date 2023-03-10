@@ -53,6 +53,12 @@
             "url": "https://drive.google.com/file/d/15i8w4DoxU4yOsLeb29V93EoczdbhJkOk/view?usp=sharing",
             "platform": "Spoken tutorial",
             "finished": "Jan'2022"
+        },
+        {
+            "name": "Git and Github Certification",
+            "url": "https://drive.google.com/file/d/1ZsnVCZNfaZ9Q0HC-ncTUfSNrIBZ7Oi4A/view?usp=share_link",
+            "platform": "Spoken tutorial",
+            "finished": "Oct'2022"
         }
     ],
     "achievements": [
@@ -79,24 +85,22 @@
                 "library": ["React.js", "Material-UI", "Aos"]
             },
             "images": [
-                "assets/images/works/portfolio.png"
+                "../../../assets/images/works/portfolio.png"
             ],
-            "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio",
-            "site_url": "https://casesheet2021.herokuapp.com"
+            "description": "This portfolio website which you have seen now is build by using React.js and also used the Aos library to provide animate on scroll in these site. If you want to contact me, you can contact me through the page located on the bottom of these site.",
+            "src_url": "https://github.com/Mohamedrizwan-gif/Portfolio"
         },
         {
-            "name": "Casesheet",
-            "client-used": {
-                "language": "Javascript",
-                "library": ["React.js", "Redux.js", "Material-UI"]
-            },
-            "server-used": ["Express.js"],
-            "db-used": ["Mongodb"],
-            "images": [
-                "assets/images/works/casesheet.png"
-            ],
-            "src_url": "https://github.com/Mohamedrizwan-gif/casesheet",
-            "site_url": "https://casesheet2021.herokuapp.com"
+            "name": "User Management System",
+            "description": "A simple CRUD application done only by using Express.js with EJS",
+            "src_url": "https://github.com/Mohamedrizwan-gif/crud_app-node.js-",
+            "site_url": "https://crud-app-zdg1.onrender.com/"
+        },
+        {
+            "name": "Eathenaeum",
+            "description": "A small e-library website created by using Express.js with EJS and also done some preprocessing using PowerBI",
+            "src_url": "https://github.com/Mohamedrizwan-gif/eathenaeum-node.js-",
+            "site_url": "https://eathenaeum.onrender.com/"
         },
         {
             "name": "CovidTracker",
@@ -105,8 +109,9 @@
                 "framework": "Angular"
             },
             "images": [
-                "assets/images/works/covidtracker.png"
+                "../../../assets/images/works/covidtracker.png"
             ],
+            "description": "Covid tracker website is build by using angular framework to show the cases of covid in detail summary and also with mapbox api to show the location on map",
             "api": "Mapbox",
             "src_url": "https://github.com/Mohamedrizwan-gif/Covid-tracker",
             "site_url": "https://covid-track-19.netlify.app"
@@ -120,18 +125,20 @@
             "server-used": ["Express.js"],
             "db-used": ["Mongodb"],
             "images": [
-                "assets/images/works/meet-in.png"
+                "../../../assets/images/works/meet-in.png"
             ],
+            "description": "Meet-in site is a WebRTC application which is free and provides realtime communication via simple API. <a className={styles.peerlink} href='https://peerjs.com/'>PeerJS</a> wraps the browser's WebRTC implementation to provide a peer-to-peer connection API which is used in these application and moreover react.js library gives a flexibility to manage these API and performance to this application with some unit testing.",
             "src_url": "https://github.com/Mohamedrizwan-gif/Meet-in",
             "site_url": "https://meet-in.netlify.app/"
         }, 
         {
             "name": "Vdgamedb",
             "images":[
-                "assets/images/works/videogamedb.png"
+                "../../../assets/images/works/videogamedb.png"
             ],
+            "description": "Vdgamedb website is build by using angular framework which gives the detailed overview of video games information is fetch by using rawg api.",
             "src_url": "https://github.com/Mohamedrizwan-gif/videogamedb",
-            "site_url": "https://vdgamedb.netlify.app/"
+            "site_url": "https://63ccce214399b949b28a375a--vdgamedb.netlify.app/"
         }
     ]
 }

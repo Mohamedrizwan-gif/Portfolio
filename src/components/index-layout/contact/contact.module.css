@@ -30,6 +30,7 @@
 .send_btn {
     width: 100px;
     border-radius: 15px;
+    background-color: rgb(251, 117, 146) !important;
 }
 
 .contact_logo:hover {

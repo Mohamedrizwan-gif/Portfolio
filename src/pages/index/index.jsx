@@ -17,7 +17,7 @@ function Index() {
 
   return(
     <div>
-      <header style={{position:'fixed', zIndex: 1, width: '100%'}}>
+      <header className="header">
         <Navbar/>
       </header>
       <main>

@@ -40,7 +40,7 @@ function Navbar() {
     return(
         <div>
             <AppBar className={styles.app_bar}>
-                <ToolBar>
+                <ToolBar style={{background: 'cadetblue'}}>
                     <code data-aos="slide-right" className={styles.code}>&lt;devmohamed&gt;</code>
                     {responsive ?
                     <Button className={styles.menu} onClick={() => setState(true)}>
@@ -48,23 +48,23 @@ function Navbar() {
                     </Button>
                     :
                     <div data-aos="slide-left" className={styles.navigate}>
-                        <Button variant="outlined">
-                            <Scroll.Link activeClass={styles.active} to="home" smooth={true} spy={true}>Home</Scroll.Link>
+                        <Button variant="outlined" color="secondary">
+                            <Scroll.Link style={{color:'white'}} activeClass={styles.active} to="home" smooth={true} spy={true}>Home</Scroll.Link>
                         </Button>
-                        <Button variant="outlined">
-                            <Scroll.Link activeClass={styles.active} to="about" smooth={true} spy={true}>About</Scroll.Link>
+                        <Button variant="outlined" color="secondary">
+                            <Scroll.Link style={{color:'white'}} activeClass={styles.active} to="about" smooth={true} spy={true}>About</Scroll.Link>
                         </Button>
-                        <Button variant="outlined">
-                            <Scroll.Link activeClass={styles.active} to="skills" smooth={true} spy={true}>Skills</Scroll.Link>
+                        <Button variant="outlined" color="secondary">
+                            <Scroll.Link style={{color:'white'}} activeClass={styles.active} to="skills" smooth={true} spy={true}>Skills</Scroll.Link>
                         </Button>
-                        <Button variant="outlined">
-                            <Scroll.Link activeClass={styles.active} to="works" smooth={true} spy={true}>Works</Scroll.Link>
+                        <Button variant="outlined" color="secondary">
+                            <Scroll.Link style={{color:'white'}} activeClass={styles.active} to="works" smooth={true} spy={true}>Works</Scroll.Link>
                         </Button>
-                        <Button variant="outlined">
-                            <Scroll.Link activeClass={styles.active} to="contact" smooth={true} spy={true}>Contact</Scroll.Link>
+                        <Button variant="outlined" color="secondary">
+                            <Scroll.Link style={{color:'white'}} activeClass={styles.active} to="contact" smooth={true} spy={true}>Contact</Scroll.Link>
                         </Button>
-                        <Button variant="outlined">
-                            <Link to="/myresume">My Resume</Link>
+                        <Button variant="outlined" color="secondary">
+                            <Link style={{color:'white'}} to="/myresume">My Resume</Link>
                         </Button>
                     </div>
                     }
@@ -77,24 +77,24 @@ function Navbar() {
                 onClose={toggleDrawer(false)} 
                 onOpen={toggleDrawer(true)}
             >
-                <Button className={styles.bar_btn}>
-                    <Scroll.Link activeClass={styles.active} to="home" smooth={true} spy={true}>Home</Scroll.Link>
-                </Button>
-                <Button className={styles.bar_btn}>
-                    <Scroll.Link activeClass={styles.active} to="about" smooth={true} spy={true}>About</Scroll.Link>
-                </Button>
-                <Button className={styles.bar_btn}>
-                    <Scroll.Link activeClass={styles.active} to="skills" smooth={true} spy={true}>Skills</Scroll.Link>
-                </Button>
-                <Button className={styles.bar_btn}>
-                    <Scroll.Link activeClass={styles.active} to="works" smooth={true} spy={true}>Works</Scroll.Link>
-                </Button>
-                <Button className={styles.bar_btn}>
-                    <Scroll.Link activeClass={styles.active} to="contact" smooth={true} spy={true}>Contact</Scroll.Link>
-                </Button>
-                <Button className={styles.bar_btn}>
-                    <Link to="/myresume">My Resume</Link>
-                </Button>
+                <Scroll.Link activeClass={styles.active} to="home" smooth={true} spy={true}>
+                    <Button className={styles.bar_btn}>Home</Button>
+                </Scroll.Link>
+                <Scroll.Link activeClass={styles.active} to="about" smooth={true} spy={true}>
+                   <Button className={styles.bar_btn}>About</Button>
+                </Scroll.Link>
+                <Scroll.Link activeClass={styles.active} to="skills" smooth={true} spy={true}>
+                    <Button className={styles.bar_btn}>Skills</Button>
+                </Scroll.Link>
+                <Scroll.Link activeClass={styles.active} to="works" smooth={true} spy={true}>
+                    <Button className={styles.bar_btn}>Works</Button>
+                </Scroll.Link>
+                <Scroll.Link activeClass={styles.active} to="contact" smooth={true} spy={true}>
+                    <Button className={styles.bar_btn}>Contact</Button>
+                </Scroll.Link>
+                <Link to="/myresume">
+                    <Button className={styles.bar_btn}>My Resume</Button>
+                </Link>
             </SwipeableDrawer>
         </div>
     )

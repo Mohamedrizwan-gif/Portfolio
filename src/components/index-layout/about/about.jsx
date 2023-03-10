@@ -1,5 +1,4 @@
 import { useEffect } from 'react';
-import Avatar from '@material-ui/core/Avatar';
 import Paper from '@material-ui/core/Paper';
 import Aos from 'aos';
 import 'aos/dist/aos.css';
@@ -20,10 +19,10 @@ function About() {
             <br/>
             <div className={styles.about}>
                 <div className={styles.avatar_container} data-aos="zoom-in">
-                    <Avatar src={Me} className={styles.avatar}/>
+                    <img alt="profile" src={Me} className={styles.avatar}/>
                 </div>
                 <p className={styles.about_me}>
-                    Hi! I'm from chennai.
+                    Hi! I'm from chennai and I'm pursuing MCA at DG Vaishnav College.
                     I did my UG with 83% at The New College (Autonomous) in royapettah.  
                     I completed my SSLC with 87% at SFS Matric Hr Sec School in Pudukkottai and 
                     HSC with 81% at Vidyaa Vikas Hr Sec School in Gandarvakkottai.
